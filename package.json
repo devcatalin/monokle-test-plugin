@@ -11,7 +11,7 @@
         "type": "templates/helm-chart",
         "forms": [
           {
-            "title": "Minecraft Server",
+            "name": "Minecraft Server",
             "description": "Default settings for your Minecraft Server",
             "schema": "form-schema.json",
             "uiSchema": "form-ui-schema.json"
