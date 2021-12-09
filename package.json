@@ -9,6 +9,7 @@
     "modules": [
       {
         "type": "templates/helm-chart",
+        "isReferenced": true,
         "forms": [
           {
             "name": "Minecraft Server",
