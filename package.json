@@ -1,7 +1,7 @@
 {
-  "name": "helm-templates",
+  "name": "Catalin's Test Templates",
   "version": "1.0.0",
-  "description": "",
+  "description": "This plugin provides a couple of templates.",
   "license": "MIT",
   "monoklePlugin": {
     "id": "io.kubeshop.templates.basic.helm",
