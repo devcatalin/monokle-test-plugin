@@ -5,9 +5,10 @@
   "description": "This plugin provides a couple of templates.",
   "license": "MIT",
   "monoklePlugin": {
-    "id": "io.kubeshop.templates.basic.helm",
+    "id": "io.kubeshop.devcatalin.templates",
     "modules": [
       {
+        "id": "io.kubeshop.decatalin.templates.minecraft",
         "type": "templates/helm-chart",
         "isReferenced": true,
         "forms": [
