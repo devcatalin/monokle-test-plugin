@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "This plugin provides a couple of templates.",
   "license": "MIT",
+  "repository": "https://github.com/devcatalin/monokle-test-plugin",
   "monoklePlugin": {
     "id": "io.kubeshop.devcatalin.templates",
     "modules": [
