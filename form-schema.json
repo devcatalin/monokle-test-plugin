@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "required": "minecraftServer",
+  "required": ["minecraftServer", "persistance"],
   "properties": {
     "minecraftServer": {
       "required": ["eula", "version"],
@@ -17,6 +17,18 @@
           "type": "number",
           "format": "integer",
           "default": 20
+        }
+      }
+    },
+    "persistance": {
+      "type": "object",
+      "properties": {
+        "dataDir": {
+          "type": "object",
+          "properties": {
+            "enabled": "boolean",
+            "default": true
+          }
         }
       }
     }
