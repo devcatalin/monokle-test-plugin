@@ -2,7 +2,8 @@
   "minecraftServer": {
     "ui:title": "Server Options",
     "eula": {
-      "ui:title": "Accept EULA"
+      "ui:title": "Accept EULA",
+      "ui:help": "Check to accept EULA"
     },
     "version": {
       "ui:title": "Minecraft Version",
