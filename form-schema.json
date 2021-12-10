@@ -26,8 +26,10 @@
         "dataDir": {
           "type": "object",
           "properties": {
-            "enabled": "boolean",
-            "default": true
+            "enabled": {
+              "type": "boolean",
+              "default": true
+            }
           }
         }
       }
