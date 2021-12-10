@@ -1,5 +1,6 @@
 {
   "minecraftServer": {
+    "ui:title": "Server Options",
     "eula": {
       "ui:title": "Accept EULA"
     },
@@ -10,6 +11,15 @@
     "maxPlayers": {
       "ui:title": "Max players",
       "ui:help": "Max connected players."
+    }
+  },
+  "persistence": {
+    "ui:title": "Persistence Options",
+    "dataDir": {
+      "ui:title": "Should worlds be persisted between server restarts?",
+      "enabled": {
+        "ui:title": "Enable"
+      }
     }
   }
 }
