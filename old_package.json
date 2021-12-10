@@ -1,16 +1,20 @@
 {
-  "name": "helm-templates",
+  "name": "Catalin's Test Templates",
+  "author": "devcatalin",
   "version": "1.0.0",
-  "description": "",
+  "description": "This plugin provides a couple of templates.",
   "license": "MIT",
+  "repository": "https://github.com/devcatalin/monokle-test-plugin",
   "monoklePlugin": {
-    "id": "io.kubeshop.templates.basic.helm",
+    "id": "io.kubeshop.devcatalin.templates",
     "modules": [
       {
+        "id": "io.kubeshop.decatalin.templates.minecraft",
         "type": "templates/helm-chart",
+        "isReferenced": true,
         "forms": [
           {
-            "title": "Minecraft Server",
+            "name": "Minecraft Server",
             "description": "Default settings for your Minecraft Server",
             "schema": "form-schema.json",
             "uiSchema": "form-ui-schema.json"

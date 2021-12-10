@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "required": ["minecraftServer", "persistance"],
+  "properties": {
+    "minecraftServer": {
+      "required": ["eula", "version"],
+      "type": "object",
+      "properties": {
+        "eula": {
+          "type": "boolean"
+        },
+        "version": {
+          "type": "string",
+          "default": "LATEST"
+        },
+        "maxPlayers": {
+          "type": "number",
+          "format": "integer",
+          "default": 20
+        }
+      }
+    },
+    "persistence": {
+      "type": "object",
+      "properties": {
+        "dataDir": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
