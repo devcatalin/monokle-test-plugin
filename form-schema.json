@@ -20,7 +20,7 @@
         }
       }
     },
-    "persistance": {
+    "persistence": {
       "type": "object",
       "properties": {
         "dataDir": {
