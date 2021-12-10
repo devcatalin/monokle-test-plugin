@@ -70,9 +70,9 @@ extraVolumes: [ ]
 
 minecraftServer:
   # This must be overridden, since we can't accept this for the user.
-  eula: "${forms[0].acceptEula}"
+  eula: ${forms[0].acceptEula}
   # One of: LATEST, SNAPSHOT, or a specific version (ie: "1.7.9").
-  version: "${forms[0].version}"
+  version: ${forms[0].version}
   # This can be one of "VANILLA", "FORGE", "SPIGOT", "BUKKIT", "PAPER", "FTBA", "SPONGEVANILLA", "CURSEFORGE"
   type: "VANILLA"
   # If type is set to FORGE, this sets the version; this is ignored if forgeInstallerUrl is set
