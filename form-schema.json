@@ -1,21 +1,24 @@
 {
   "type": "object",
-  "required": [
-    "acceptEula",
-    "version"
-  ],
+  "required": "minecraftServer",
   "properties": {
-    "acceptEula": {
-      "type": "boolean"
-    },
-    "version": {
-      "type": "string",
-      "default": "LATEST"
-    },
-    "maxPlayers": {
-      "type": "number",
-      "format": "integer",
-      "default": 20
+    "minecraftServer": {
+      "required": ["eula", "version"],
+      "type": "object",
+      "properties": {
+        "eula": {
+          "type": "boolean"
+        },
+        "version": {
+          "type": "string",
+          "default": "LATEST"
+        },
+        "maxPlayers": {
+          "type": "number",
+          "format": "integer",
+          "default": 20
+        }
+      }
     }
   }
 }
