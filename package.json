@@ -10,7 +10,7 @@
     "modules": [
       {
         "type": "template",
-        "path": "template.json"
+        "path": "minecraft-template"
       }
     ]
   }
