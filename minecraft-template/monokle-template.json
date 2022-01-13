@@ -1,6 +1,6 @@
 {
     "name": "Minecraft Server",
-    "id": "io.kubeshop.decatalin.templates.minecraft",
+    "id": "com.github.devcatalin.monokle-test-plugin.minecraft",
     "author": "Catalin",
     "version": "1.0.0",
     "description": "Create your own Minecraft server",

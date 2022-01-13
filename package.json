@@ -1,12 +1,12 @@
 {
-  "name": "Catalin's Test Templates",
+  "name": "Monokle Test Plugin",
   "author": "devcatalin",
   "version": "1.0.0",
   "description": "This plugin provides a couple of templates.",
   "license": "MIT",
   "repository": "https://github.com/devcatalin/monokle-test-plugin",
   "monoklePlugin": {
-    "id": "io.kubeshop.templates.basic.helm",
+    "id": "com.github.devcatalin.monokle-test-plugin",
     "modules": [
       {
         "type": "template",
