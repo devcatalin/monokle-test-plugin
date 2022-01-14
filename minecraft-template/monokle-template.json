@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "description": "Create your own Minecraft server",
     "type": "helm-chart",
+    "repository": "https://github.dev/devcatalin/monokle-test-plugin",
     "forms": [
         {
             "name": "Minecraft Server",
