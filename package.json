@@ -1,7 +1,7 @@
 {
   "name": "Monokle Test Plugin",
   "author": "devcatalin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This plugin provides a couple of templates.",
   "license": "MIT",
   "repository": "https://github.com/devcatalin/monokle-test-plugin",
