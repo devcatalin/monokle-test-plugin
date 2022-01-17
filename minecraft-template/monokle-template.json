@@ -2,7 +2,7 @@
     "name": "Minecraft Server (Test Plugin)",
     "id": "com.github.devcatalin.monokle-test-plugin.minecraft",
     "author": "Catalin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Create your own Minecraft server",
     "type": "helm-chart",
     "repository": "https://github.dev/devcatalin/monokle-test-plugin",
