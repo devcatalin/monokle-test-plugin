@@ -3,7 +3,7 @@
     "id": "com.github.devcatalin.monokle-test-plugin.deployment",
     "author": "Catalin",
     "version": "1.0.0",
-    "description": "Create a Deployment",
+    "description": "Create Deployment and Service",
     "type": "helm-chart",
     "repository": "https://github.dev/devcatalin/monokle-test-plugin",
     "forms": [
@@ -16,8 +16,10 @@
     ],
     "manifests": [
         {
-            "filePath": "manifests/deployment.yaml"
+            "filePath": "manifests/deployment.yaml",
+            "fileRenameRule": "${forms[0].data.name}-deployment.yaml"
         }
     ],
+    "resultMessage": "Created Deployment and Service",
     "helpUrl": "https://github.com/devcatalin/monokle-test-plugin"
 }
