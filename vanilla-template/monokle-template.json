@@ -17,7 +17,6 @@
     "manifests": [
         {
             "filePath": "manifests/deployment.yaml",
-            "fileRenameRule": "${forms[0].data.name}-deployment.yaml"
         }
     ],
     "helpUrl": "https://github.com/devcatalin/monokle-test-plugin"
