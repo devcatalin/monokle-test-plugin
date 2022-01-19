@@ -1,0 +1,24 @@
+{
+    "name": "Deployment template",
+    "id": "com.github.devcatalin.monokle-test-plugin.deployment",
+    "author": "Catalin",
+    "version": "1.0.0",
+    "description": "Create a Deployment",
+    "type": "helm-chart",
+    "repository": "https://github.dev/devcatalin/monokle-test-plugin",
+    "forms": [
+        {
+            "name": "First form",
+            "description": "Settings..",
+            "schema": "form-schema.json",
+            "uiSchema": "form-ui-schema.json"
+        }
+    ],
+    "manifests": [
+        {
+            "filePath": "manifests/deployment.yaml",
+            "fileRenameRule": "${forms[0].data.name}-deployment.yaml"
+        }
+    ],
+    "helpUrl": "https://github.com/devcatalin/monokle-test-plugin"
+}
