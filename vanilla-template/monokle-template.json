@@ -4,7 +4,7 @@
     "author": "Catalin",
     "version": "1.0.0",
     "description": "Create Deployment and Service",
-    "type": "helm-chart",
+    "type": "vanilla",
     "repository": "https://github.dev/devcatalin/monokle-test-plugin",
     "forms": [
         {
