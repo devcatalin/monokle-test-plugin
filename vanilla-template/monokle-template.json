@@ -16,7 +16,7 @@
     ],
     "manifests": [
         {
-            "filePath": "manifests/deployment.yaml",
+            "filePath": "manifests/deployment.yaml"
         }
     ],
     "helpUrl": "https://github.com/devcatalin/monokle-test-plugin"
