@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: [[forms[0].name]]
-  name: [[forms[0].name]]
+  name: [[forms[0].name]]-deployment
 spec:
   replicas: [[forms[0].replicas]]
   selector:
@@ -23,7 +23,7 @@ kind: Service
 metadata:
   labels:
     app: [[forms[0].name]]
-  name: [[forms[0].name]]
+  name: [[forms[0].name]]-service
 spec:
   ports:
     - port: [[forms[0].servicePort]]
