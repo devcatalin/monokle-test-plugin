@@ -11,6 +11,10 @@
       {
         "type": "template",
         "path": "minecraft-template"
+      },
+      {
+        "type": "template",
+        "path": "vanilla-template"
       }
     ]
   }
