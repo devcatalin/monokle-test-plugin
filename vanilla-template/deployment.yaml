@@ -2,33 +2,33 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: [[forms[0].data.name]]
-  name: [[forms[0].data.name]]
+    app: [[forms[0].name]]
+  name: [[forms[0].name]]
 spec:
-  replicas: [[forms[0].data.replicas]]
+  replicas: [[forms[0].replicas]]
   selector:
     matchLabels:
-      app: [[forms[0].data.name]]
+      app: [[forms[0].name]]
   template:
     metadata:
       labels:
-        app: [[forms[0].data.name]]
+        app: [[forms[0].name]]
     spec:
       containers:
-        - image: [[forms[0].data.image]]
-          name: [[forms[0].data.name]]
+        - image: [[forms[0].image]]
+          name: [[forms[0].name]]
 ---
 apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: [[forms[0].data.name]]
-  name: [[forms[0].data.name]]
+    app: [[forms[0].name]]
+  name: [[forms[0].name]]
 spec:
   ports:
-    - port: [[forms[0].data.servicePort]]
+    - port: [[forms[0].servicePort]]
       protocol: TCP
-      targetPort: [[forms[0].data.targetPort]]
+      targetPort: [[forms[0].targetPort]]
   selector:
-    app: [[forms[0].data.name]]
-  type: [[forms[0].data.serviceType]]
+    app: [[forms[0].name]]
+  type: [[forms[0].serviceType]]
