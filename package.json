@@ -7,6 +7,7 @@
   "repository": "https://github.com/devcatalin/monokle-test-plugin",
   "monoklePlugin": {
     "id": "com.github.devcatalin.monokle-test-plugin",
+    "icon": "https://www.svgrepo.com/show/414840/pumpkin-autumn-fall.svg",
     "modules": [
       {
         "type": "template",

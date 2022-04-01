@@ -1,22 +1,23 @@
 {
-    "name": "Minecraft Server (Test Plugin)",
-    "id": "com.github.devcatalin.monokle-test-plugin.minecraft",
-    "author": "Catalin",
-    "version": "1.0.1",
-    "description": "Create your own Minecraft server",
-    "type": "helm-chart",
-    "repository": "https://github.dev/devcatalin/monokle-test-plugin",
-    "forms": [
-        {
-            "name": "Minecraft Server",
-            "description": "Default settings for your Minecraft Server",
-            "schema": "form-schema.json",
-            "uiSchema": "form-ui-schema.json"
-        }
-    ],
-    "valuesFilePath": "values.yaml",
-    "chartName": "minecraft",
-    "chartVersion": "3.6.1",
-    "chartRepo": "https://itzg.github.io/minecraft-server-charts/",
-    "helpUrl": "https://artifacthub.io/packages/helm/minecraft-server-charts/minecraft"
+  "name": "Minecraft Server (Test Plugin)",
+  "id": "com.github.devcatalin.monokle-test-plugin.minecraft",
+  "author": "Catalin",
+  "version": "1.0.1",
+  "description": "Create your own Minecraft server",
+  "type": "helm-chart",
+  "repository": "https://github.dev/devcatalin/monokle-test-plugin",
+  "icon": "shovel.png",
+  "forms": [
+    {
+      "name": "Minecraft Server",
+      "description": "Default settings for your Minecraft Server",
+      "schema": "form-schema.json",
+      "uiSchema": "form-ui-schema.json"
+    }
+  ],
+  "valuesFilePath": "values.yaml",
+  "chartName": "minecraft",
+  "chartVersion": "3.6.1",
+  "chartRepo": "https://itzg.github.io/minecraft-server-charts/",
+  "helpUrl": "https://artifacthub.io/packages/helm/minecraft-server-charts/minecraft"
 }

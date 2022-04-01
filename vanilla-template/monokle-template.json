@@ -1,24 +1,25 @@
 {
-    "name": "Deployment template",
-    "id": "com.github.devcatalin.monokle-test-plugin.deployment",
-    "author": "Catalin",
-    "version": "1.0.0",
-    "description": "Create Deployment and Service",
-    "type": "vanilla",
-    "repository": "https://github.dev/devcatalin/monokle-test-plugin",
-    "forms": [
-        {
-            "name": "First form",
-            "description": "Settings..",
-            "schema": "form-schema.json",
-            "uiSchema": "form-ui-schema.json"
-        }
-    ],
-    "manifests": [
-        {
-            "filePath": "deployment.yaml"
-        }
-    ],
-    "resultMessage": "Created Deployment and Service",
-    "helpUrl": "https://github.com/devcatalin/monokle-test-plugin"
+  "name": "Deployment template",
+  "id": "com.github.devcatalin.monokle-test-plugin.deployment",
+  "author": "Catalin",
+  "version": "1.0.0",
+  "description": "Create Deployment and Service",
+  "type": "vanilla",
+  "repository": "https://github.dev/devcatalin/monokle-test-plugin",
+  "forms": [
+    {
+      "name": "First form",
+      "description": "Settings..",
+      "schema": "form-schema.json",
+      "uiSchema": "form-ui-schema.json"
+    }
+  ],
+  "manifests": [
+    {
+      "filePath": "deployment.yaml"
+    }
+  ],
+  "resultMessage": "Created Deployment and Service",
+  "helpUrl": "https://github.com/devcatalin/monokle-test-plugin",
+  "icon": "icon.svg"
 }
