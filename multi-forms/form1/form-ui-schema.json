@@ -1,0 +1,6 @@
+{
+    "name": {
+      "ui:title": "Name",
+      "ui:help": "The name of the generated service and deployment"
+    }
+  }

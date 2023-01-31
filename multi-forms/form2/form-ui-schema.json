@@ -1,0 +1,10 @@
+{
+    "replicas": {
+      "ui:title": "Replicas",
+      "ui:help": "The number of Pod replicas to create"
+    },
+    "image": {
+      "ui:title": "Image",
+      "ui:help": "The Docker image to deploy"
+    }
+  }

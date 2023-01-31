@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "required": [
+      "image"
+    ],
+    "properties": {
+      "replicas": {
+        "type": "number",
+        "format": "integer",
+        "default": 3
+      },
+      "image": {
+        "type": "string"
+      }
+    }
+  }

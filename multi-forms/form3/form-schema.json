@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "required": [
+      "targetPort"
+    ],
+    "properties": {
+      "servicePort": {
+        "type": "number",
+        "format": "integer",
+        "default": 80
+      },
+      "targetPort": {
+        "type": "number",
+        "format": "integer"
+      },
+      "serviceType": {
+        "type": "string",
+        "default": "LoadBalancer",
+        "enum": [
+          "LoadBalancer",
+          "NodePort"
+        ]
+      }
+    }
+  }

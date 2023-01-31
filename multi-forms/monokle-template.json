@@ -1,0 +1,37 @@
+{
+  "name": "Multi Form Template",
+  "id": "com.github.devcatalin.monokle-test-plugin.deployment",
+  "author": "Catalin",
+  "version": "1.0.0",
+  "description": "Create Deployment and Service",
+  "type": "vanilla",
+  "repository": "https://github.dev/devcatalin/monokle-test-plugin",
+  "forms": [
+    {
+      "name": "First form",
+      "description": "Settings..",
+      "schema": "form1/form-schema.json",
+      "uiSchema": "form1/form-ui-schema.json"
+    },
+    {
+      "name": "Second form",
+      "description": "Settings..",
+      "schema": "form2/form-schema.json",
+      "uiSchema": "form2/form-ui-schema.json"
+    },
+    {
+      "name": "Third form",
+      "description": "Settings..",
+      "schema": "form3/form-schema.json",
+      "uiSchema": "form3/form-ui-schema.json"
+    }
+  ],
+  "manifests": [
+    {
+      "filePath": "deployment.yaml"
+    }
+  ],
+  "resultMessage": "Created",
+  "helpUrl": "https://github.com/devcatalin/monokle-test-plugin",
+  "icon": "icon.svg"
+}
